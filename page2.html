@@ -15,6 +15,41 @@
     - Print the current URL using the 'window' object
 -->
 
+<div id="header">
 
+</div>
+
+<button onclick="myfunction()">Url </button>
+<button onclick="func()">Width </button>
+<button onclick="funct()">Height </button>
+<button onclick="fan()">Info  </button>
+
+<script>
+
+    function myfunction() {
+        var url =  document.write("The currenbt URl is " + window.location.href);
+        document.getElementById("header").innerHTML = url;
+
+    }
+function func() {
+    var width = document.write("The current width is " + screen.width);
+    document.getElementById("header").innerHTML = width;
+
+}
+
+function funct() {
+    var height = document.write("The current height is " + screen.height);
+    document.getElementById("header").innerHTML = height;
+
+}
+
+function fan() {
+    document.getElementById("header").innerHTML = document.title + "<br>" + document.URL + "<br>" + document.lastModified;
+
+
+}
+
+
+</script>
 </body>
 </html>
