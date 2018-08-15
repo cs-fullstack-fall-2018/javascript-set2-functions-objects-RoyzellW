@@ -20,3 +20,7 @@ Write HTML pages and corresponding JavaScript to perform the following:
 
 See sample image to see expected output.
 
+/*
+
+	KEY: Navigation a little tricky, but overall probably the best submission of the group. Well done!
+*/
